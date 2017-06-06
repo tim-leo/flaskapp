@@ -5,7 +5,7 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-
+    """Creates an array with random names."""
     user = {'nickname': 'big'}
 
     posts = []
