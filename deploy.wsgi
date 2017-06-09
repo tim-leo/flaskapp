@@ -5,7 +5,7 @@ import site
 # Add virtualenv site packages
 site.addsitedir(os.path.join(os.path.dirname(__file__), '/venv/Lib/site-packages'))
 # Path of execution
-sys.path.append('/var/www/flaskapp')
+sys.path.append('/var/www/flaskapp/app')
 
 # Fired up virtualenv before include application
 activate_this = '/venv/Scripts/activate_this.py'
