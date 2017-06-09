@@ -13,4 +13,7 @@ execfile(activate_this, dict(__file__=activate_this))
 
 # import my_flask_app as application
 from app import app as application
+<<<<<<< HEAD:deploy.wsgi
 
+=======
+>>>>>>> 8db9120480498ac52bfd6403221ab594aeb89550:app/deploy.wsgi
