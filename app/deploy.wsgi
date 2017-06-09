@@ -12,4 +12,4 @@ activate_this = '/var/www/flaskapp/venv/Scripts/activate_this.py'
 execfile(activate_this, dict(__file__=activate_this))
 
 # import my_flask_app as application
-from flaskapp import app as application
+from app import app as application
