@@ -36,6 +36,7 @@ from flask import Flask, render_template
 from app import app
 import json
 
+app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
@@ -60,6 +61,3 @@ def validusers():
     """Creates an array with random names."""
 
     return render_template('validusers.html', title='Users')
-
-
-app = Flask(__name__)
