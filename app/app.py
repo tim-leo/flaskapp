@@ -37,13 +37,13 @@ from app import app
 import json
 
 app = Flask(__name__)
-
+print('we got here')
 @app.route('/')
 @app.route('/index')
 def index():
     """Creates an array with random names."""
     user = {'nickname': 'big'}
-
+    print('we got here 2')
     posts = []
 
     i = 1
